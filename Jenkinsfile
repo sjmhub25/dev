@@ -47,7 +47,7 @@ pipeline {
         stage('Push') {
             steps {
                 // Push the image to Docker Hub
-                bat "docker push ${IMAGE}"
+                sh "docker push ${IMAGE}"
             }
         }
     }
