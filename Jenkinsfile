@@ -43,7 +43,7 @@ pipeline {
                 }
             }
         }
-
+        
         stage('Push') {
             steps {
                 // Push the image to Docker Hub
